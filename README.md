@@ -54,7 +54,8 @@ Ora creo un file template, che va bene anche per altri progetti: webpack.config.
 
 Leggi: https://webpack.github.io/docs/configuration.html
 https://web-design-weekly.com/2014/09/24/diving-webpack/
-
+http://www.newmediacampaigns.com/blog/refactoring-react-components-to-es6-classes
+http://survivejs.com/webpack_react/developing_with_webpack/
 
 ```js
 module.exports = {
