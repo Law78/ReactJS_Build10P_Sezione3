@@ -21,14 +21,14 @@ var Navbar = React.createClass({
         color: 'light'
       }
     },
-    // la sola funzione rechiesta per un componente React è la render
+    // la sola funzione richiesta per un componente React è la render
     render: function(){
     }
 ```
 
-Successivamente andiamo ad impostare una applicazione developer su github: http://github.com/settings/developers.
+Successivamente andiamo ad impostare una nuova applicazione developer su github: http://github.com/settings/developers.
 
-Poi install con npm:
+Poi install con npm (se non ho npm installo node!!!):
 
 npm install webpack -g
 npm install webpack-dev-server -g
