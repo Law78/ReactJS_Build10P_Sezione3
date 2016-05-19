@@ -36,7 +36,7 @@ npm install webpack-dev-server -g
 Ora creo un file package.json tramite npm init, inserendo alcune informazioni.
 Apro il file package.json e aggiungo le devDependencies, cioè quei moduli che andrò ad usare solo in ambiente di sviluppo e non in produzione:
 
-```json
+```
 "devDependencies":{
   "babel-core":"5.8.*",
   "babel-loader":"5.3.*",
@@ -112,7 +112,7 @@ mentre in index.html scriverò:
   </body>
 </html>
 
-In src creo il file entry index.js con una semplice istruzione alert('It's works')
+In src creo il file entry index.js con una semplice istruzione alert('It\'s works')
 
 ```
 
@@ -188,4 +188,3 @@ Andiamo a sistemare il nostro div, wrappandolo in questa maniera:
 In components vado a creare una cartella chiamata github, in quanto ogni gruppo di componenti avrà la sua cartella, in cui creiamo 4 file: Profile.jsx, RepoList.jsx, Search.jsx e Repo.jsx. Ho 4 componenti dell'applicazione.
 
 In App.jsx andiamo a definire il costruttore.
-
