@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
+import Keys from '../../Keys';
 
 class App extends Component{
 
@@ -11,7 +12,7 @@ class App extends Component{
 			userRepos: [],
 			perPage: 5
 		}
-	}	
+	}
 
   render(){
     return(
@@ -28,8 +29,8 @@ App.propTypes = {
 	clientSecret: React.PropTypes.string
 };
 App.defaultProps = {
-	clientId: '7e1177647b38ca45b6c4',
-	clientSecret: '76486767253e0fb7d528033d446d13ef621055c1'
+	clientId: Keys.clientId,
+	clientSecret: Keys.clientSecret
 }
 
 export default App
